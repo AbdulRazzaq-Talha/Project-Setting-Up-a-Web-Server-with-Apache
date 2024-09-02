@@ -34,7 +34,11 @@ Command : sudo cp /path/to/your/website/files /var/www/html/
 Add firewall rules to allow HTTP traffic, ensuring that the web server can be accessed from outside the virtual machine.
 Command : sudo firewall-cmd --permanent --add-service=http
           sudo firewall-cmd --reload
+Results: ![firewall settings](https://github.com/user-attachments/assets/c177af85-fb4f-4a10-b0fa-7391cf3ea853)
+
           
 **6: Verify Website Functionality**
 Open a web browser and navigate to your server’s IP address to confirm the website is working. 
 You should see your website’s homepage if everything is set up correctly.
+Results:![website launched for apache](https://github.com/user-attachments/assets/48090fb6-c979-4c08-a4b9-edf1c7cb1f10)
+
